@@ -1,0 +1,333 @@
+/* Navbar */
+.navbar nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    overflow: hidden;
+
+}
+nav .center{
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+gap:13% ; 
+   width: 50%;
+       flex-wrap: wrap;
+
+}
+.center img{
+    width:5%;
+    height: 3.5vh;
+}
+nav .logo{
+display: flex;
+flex-direction: row;
+    width: 25%;
+    align-items: center;
+    gap: 12px;
+}
+.logo img{
+    width: 12%;
+}
+.logo input{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2px;
+    width: 82%;
+    height: 5vh;
+}
+.right{
+    display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 24px;
+    width: 25%;
+}
+.right img{
+    width: 9%;
+    height: 3vh;
+}
+
+
+
+
+
+
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.leftSection{
+    position: fixed;
+position: static;
+border: 1px solid rgba(27, 27, 27, 0.13);
+width: 25%;
+height: 103vh;
+display: flex;
+flex-direction: column;
+gap: 22px;
+
+
+}
+
+.options{
+    
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.options img{
+    width: 15%;
+
+}
+/* center  */
+.container .center{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: auto;
+    gap: 22px;
+
+
+}
+/* Stories and Reels */
+.stories{
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+    width:88%;
+    height: 32vh;
+}
+.storiesSection{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  height: 22vh;
+  border-width: 0px 0px 1px 0px ;
+
+
+    
+
+}
+.story1{
+    border: none;
+    display: flex;
+    height: 12vh;
+    background-color:beige;
+    border-radius: 12px;
+width:12%;
+height: 16vh;}
+.stories .header{
+    display: flex;
+    flex-direction: row;
+    
+}
+.story{
+    height: 8vh;
+ border: 1px solid rgba(0, 0, 0, 0.26);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    align-items: center;
+    gap:12px;
+    border-width: 0px 0px 0.5px 0px;
+
+}
+.story img{
+   width: 16%;
+
+}
+.story p{
+    font-size: larger;
+     color: rgba(0, 0, 0, 0.603);
+     font-family: sans-serif;
+}
+.reels{
+    
+    height: 8vh;
+border: 1px solid rgba(0, 0, 0, 0.205);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    align-items: center;
+    gap:12px;
+    border-width: 0px 0px 0.5px 0px;
+}
+.reels img{
+    width: 16%;
+ 
+ }
+ .reels p{
+     font-size: larger;
+      color: rgba(0, 0, 0, 0.603);
+      font-family: sans-serif;
+ }
+.storiesSection .story1{
+    display: flex;
+    
+    flex-direction: row;
+    border: 1px solid black;
+    width: 100%;
+    height: 15vh;
+   
+
+ }
+
+/* fbPost  */
+.center .fbPost{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 85%;
+
+}
+.PostHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    font-size: .8rem;
+    font-family: sans-serif;
+    
+}
+.fbCaption{
+    font-family: sans-serif;
+    display: flex;
+  justify-content: flex-start;
+}
+.PostHeader img{
+    border: 0.4px solid black;
+    width: 8%;
+    height: 5vh;
+    border-radius: 50%;
+
+}
+.fbPostImg img{
+    width: 100%;
+    height: 52vh;
+    border-radius: 23px;
+
+}
+.fbReactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fbReactions .reaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.fbReactions .comments{
+    display: flex;
+    flex-direction: row;
+
+    gap:12px ;
+}
+.likeCommentShare{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+}
+.likeCommentShare .like{
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    gap: 5%;
+}
+.likeCommentShare .comments{
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    gap: 5%;
+}
+.likeCommentShare .Comment{
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    gap: 5%;
+}
+.likeCommentShare img{
+    width: 11.33%;
+}
+.center .fbPost2{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 88%;
+
+}
+.fbPost3{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 88%;
+}
+.fbPost4{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 88%;
+}
+.fbPost5{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 88%;
+}
+.fbPost6{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width: 88%;
+}
+
+
+
+
+.rightSection{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 4px;
+}
+#profile{
+    border: 0.4px solid rgba(173, 173, 173, 0.548);
+    width: 15%;
+    height: 5vh;
+    border-radius: 50%;
+
+}
+.rightSection p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.5);
+}
